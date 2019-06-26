@@ -1,0 +1,17 @@
+package SecondProject;
+
+public class CheckingPrime {
+
+	
+	public boolean checkIfIsPrime(int number) {
+		for (int i = 2; i < number; i++) {
+			if (number % i == 0) {
+				return false;
+			}
+		}
+		return true;
+	}
+	
+	
+	
+}
